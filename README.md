@@ -1,65 +1,37 @@
 # PyPa README
 
-This is the README for your extension "PyPa". After writing up a brief description, we recommend including the following sections.
+PyPa (Python Packaging): This extension creates the initial structure of your Python Packaging, which helps you to concentrate on core logic rather than endeavor package creation.
 
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+It creates following files:
 
-For example if there is an image subfolder under your extension project workspace:
+- [setup.py](#setup)
+- [MANIFEST.in](MANIFEST.in)
+- [gitignore](#gitignore)
+- [requirements.txt](requirements.txt)
+- [requirements_dev.txt](requirements_dev.txt)
+- [Pipfile](#Pipfile)
+- [tox.ini](tox.ini)
+- [travis.yml](#travis.yml)
+- [README.md](#README.md)
 
-\!\[feature X\]\(images/feature-x.png\)
+## How to Use
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+Goto command palette and type `Create Python Package`
 
-## Requirements
+## Known Issues or Enhancements
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
-
-## Extension Settings
-
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
-
-For example:
-
-This extension contributes the following settings:
-
-* `myExtension.enable`: enable/disable this extension
-* `myExtension.thing`: set to `blah` to do something
-
-## Known Issues
-
-Calling out known issues can help limit users opening duplicate issues against your extension.
+Open a feature or bug at [PyPa](https://github.com/kirankotari/PyPa/issues)
 
 ## Release Notes
 
-Users appreciate release notes as you update your extension.
-
 ### 1.0.0
 
-Initial release of ...
+Initial release of PyPa contains Python Packaging
 
-### 1.0.1
+## Author
 
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
------------------------------------------------------------------------------------------------------------
-
-## Working with Markdown
-
-**Note:** You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (macOS) to see a list of Markdown snippets
-
-### For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+[Kiran Kumar Kotari](https://github.com/kirankotari)
 
 **Enjoy!**
