@@ -3,6 +3,7 @@
 	"displayName": "PyPa",
 	"description": "Python Packaging",
 	"version": "0.0.1",
+	"publisher": "kirankotari",
 	"engines": {
 		"vscode": "^1.43.0"
 	},
