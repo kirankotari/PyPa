@@ -4,6 +4,8 @@
 	"description": "Python Packaging",
 	"version": "1.0.0",
 	"publisher": "kirankotari",
+	"homepage": "https://github.com/kirankotari/PyPa",
+	"license": "MIT",
 	"engines": {
 		"vscode": "^1.43.0"
 	},

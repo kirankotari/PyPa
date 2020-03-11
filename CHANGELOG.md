@@ -1,9 +1,9 @@
 # Change Log
 
-All notable changes to the "PyPa" extension will be documented in this file.
+PyPa (Python Packaging)
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+## [Released]
+
+- 1.0.0 Initial release
 
 ## [Unreleased]
-
-- Initial release
