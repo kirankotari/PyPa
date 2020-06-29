@@ -22,9 +22,7 @@ function activate(context) {
     let disposable = vscode.commands.registerCommand(
         'extension.createPyPa', 
         function () {
-            const folderPath = vscode.workspace.workspaceFolders[0].uri
-                .toString()
-                .split(":")[1];
+            const folderPath = vscode.workspace.workspaceFolders[0].uri.fsPath;
             
             // Setup file
             const setupContent = `from setuptools import setup, find_packages
